@@ -6,6 +6,7 @@
 //
 
 #import "SceneDelegate.h"
+#include "MyViewController.h"
 
 @interface SceneDelegate ()
 
@@ -18,6 +19,23 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    
+    UIWindowScene* windowScene = (UIWindowScene*) scene;
+    // 윈도우 크기 설정
+    _window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds] ];
+    // 뷰컨트롤러 생성
+       
+    
+    MyViewController *initialVC = [[MyViewController alloc] init];
+    
+    UINavigationController* navVC = [[UINavigationController alloc]
+                                     initWithRootViewController: initialVC];
+    _window.rootViewController = navVC;
+    
+    
+    [_window makeKeyAndVisible];
+    _window.windowScene = windowScene;
+    
 }
 
 

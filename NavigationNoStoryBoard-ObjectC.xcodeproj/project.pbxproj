@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B49CA2AE2979BB3F00E1678E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CA2AD2979BB3F00E1678E /* AppDelegate.m */; };
 		B49CA2B12979BB3F00E1678E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CA2B02979BB3F00E1678E /* SceneDelegate.m */; };
-		B49CA2B42979BB3F00E1678E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CA2B32979BB3F00E1678E /* ViewController.m */; };
-		B49CA2B72979BB3F00E1678E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CA2B52979BB3F00E1678E /* Main.storyboard */; };
+		B49CA2B42979BB3F00E1678E /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CA2B32979BB3F00E1678E /* MyViewController.m */; };
 		B49CA2B92979BB4100E1678E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49CA2B82979BB4100E1678E /* Assets.xcassets */; };
 		B49CA2BC2979BB4100E1678E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CA2BA2979BB4100E1678E /* LaunchScreen.storyboard */; };
 		B49CA2BF2979BB4100E1678E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CA2BE2979BB4100E1678E /* main.m */; };
+		B49CA2C72979C0F100E1678E /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CA2C62979C0F100E1678E /* ProfileViewController.m */; };
+		B49CA2CA2979C10200E1678E /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CA2C92979C10200E1678E /* MessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +23,16 @@
 		B49CA2AD2979BB3F00E1678E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B49CA2AF2979BB3F00E1678E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		B49CA2B02979BB3F00E1678E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B49CA2B22979BB3F00E1678E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B49CA2B32979BB3F00E1678E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B49CA2B62979BB3F00E1678E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B49CA2B22979BB3F00E1678E /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		B49CA2B32979BB3F00E1678E /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		B49CA2B82979BB4100E1678E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B49CA2BB2979BB4100E1678E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B49CA2BD2979BB4100E1678E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B49CA2BE2979BB4100E1678E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B49CA2C52979C0F100E1678E /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		B49CA2C62979C0F100E1678E /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		B49CA2C82979C10200E1678E /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		B49CA2C92979C10200E1678E /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +69,14 @@
 				B49CA2AD2979BB3F00E1678E /* AppDelegate.m */,
 				B49CA2AF2979BB3F00E1678E /* SceneDelegate.h */,
 				B49CA2B02979BB3F00E1678E /* SceneDelegate.m */,
-				B49CA2B22979BB3F00E1678E /* ViewController.h */,
-				B49CA2B32979BB3F00E1678E /* ViewController.m */,
-				B49CA2B52979BB3F00E1678E /* Main.storyboard */,
+				B49CA2B22979BB3F00E1678E /* MyViewController.h */,
+				B49CA2B32979BB3F00E1678E /* MyViewController.m */,
 				B49CA2B82979BB4100E1678E /* Assets.xcassets */,
 				B49CA2BA2979BB4100E1678E /* LaunchScreen.storyboard */,
+				B49CA2C52979C0F100E1678E /* ProfileViewController.h */,
+				B49CA2C62979C0F100E1678E /* ProfileViewController.m */,
+				B49CA2C82979C10200E1678E /* MessageViewController.h */,
+				B49CA2C92979C10200E1678E /* MessageViewController.m */,
 				B49CA2BD2979BB4100E1678E /* Info.plist */,
 				B49CA2BE2979BB4100E1678E /* main.m */,
 			);
@@ -135,7 +142,6 @@
 			files = (
 				B49CA2BC2979BB4100E1678E /* LaunchScreen.storyboard in Resources */,
 				B49CA2B92979BB4100E1678E /* Assets.xcassets in Resources */,
-				B49CA2B72979BB3F00E1678E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +152,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49CA2B42979BB3F00E1678E /* ViewController.m in Sources */,
+				B49CA2CA2979C10200E1678E /* MessageViewController.m in Sources */,
+				B49CA2B42979BB3F00E1678E /* MyViewController.m in Sources */,
 				B49CA2AE2979BB3F00E1678E /* AppDelegate.m in Sources */,
 				B49CA2BF2979BB4100E1678E /* main.m in Sources */,
 				B49CA2B12979BB3F00E1678E /* SceneDelegate.m in Sources */,
+				B49CA2C72979C0F100E1678E /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B49CA2B52979BB3F00E1678E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B49CA2B62979BB3F00E1678E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B49CA2BA2979BB4100E1678E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +297,7 @@
 				INFOPLIST_FILE = "NavigationNoStoryBoard-ObjectC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +324,7 @@
 				INFOPLIST_FILE = "NavigationNoStoryBoard-ObjectC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
